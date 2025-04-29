@@ -50,7 +50,7 @@ Visualize customer retention by showing how many customers from each cohort retu
 
 ### Visualization:
 
-![Customer Retention Heatmap](images/cohort_retention.png)
+![Customer Retention Heatmap](images/)
 
 ### Insights:
 - Darker colors show months with higher repeat purchases.
