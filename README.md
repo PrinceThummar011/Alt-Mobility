@@ -38,5 +38,24 @@ This repository contains the SQL queries designed to analyze order and sales dat
 
 ---
 
+## Task 5: Customer Retention Visualization
+
+### Objective:
+Visualize customer retention by showing how many customers from each cohort returned to make purchases in future months.
+
+### Method:
+- Customers were assigned a `CohortMonth` based on the month of their first order.
+- Each order was tagged with an `OrderMonth`.
+- A matrix visual in Power BI shows the number of distinct customers from each cohort who returned in subsequent months.
+
+### Visualization:
+
+![Customer Retention Heatmap](images/cohort_retention.png)
+
+### Insights:
+- Darker colors show months with higher repeat purchases.
+- The heatmap clearly displays which cohorts have better retention performance over time.
+
+
 **Author:** Prince Thummar 
-**Date:** 28/04/2025
+**Date:** 29/04/2025
