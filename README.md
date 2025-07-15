@@ -3,9 +3,14 @@
 ## Overview
 This repository contains the SQL queries designed to analyze order and sales data, customer behavior, payment statuses, and generate detailed reports.
 
+## 🌟 **[View Interactive Dashboard](index.html)**
+Experience the analysis in a clean, light-themed dashboard with visual presentation of all findings.
+
 ## Files
-- `assignment_queries.sql` — Contains all SQL queries grouped by tasks.
-- `README.md` — Explains the approach for each task.
+- `index.html` — Interactive light-mode dashboard presenting the analysis
+- `styles.css` — Clean, light-themed styling for the dashboard
+- `assignment_queries.sql` — Contains all SQL queries grouped by tasks
+- `README.md` — Explains the approach for each task
 
 ## Approach
 

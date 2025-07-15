@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt-Mobility: SQL Analysis Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Alt-Mobility Data Analysis</h1>
+            <p class="subtitle">Order, Customer, and Payment Analysis Dashboard</p>
+        </header>
+
+        <nav class="navigation">
+            <a href="#overview" class="nav-link">Overview</a>
+            <a href="#tasks" class="nav-link">Analysis Tasks</a>
+            <a href="#retention" class="nav-link">Customer Retention</a>
+            <a href="#insights" class="nav-link">Key Insights</a>
+        </nav>
+
+        <main class="main-content">
+            <section id="overview" class="section">
+                <h2>Project Overview</h2>
+                <div class="card">
+                    <p>This comprehensive SQL analysis examines order and sales data, customer behavior, payment statuses, and provides detailed reporting insights for Alt-Mobility's business operations.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>Data Sources</h3>
+                            <ul>
+                                <li>Customer Orders Dataset</li>
+                                <li>Payments Dataset</li>
+                                <li>Order Status Tracking</li>
+                            </ul>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Analysis Focus</h3>
+                            <ul>
+                                <li>Revenue Analysis</li>
+                                <li>Customer Segmentation</li>
+                                <li>Payment Processing</li>
+                                <li>Retention Metrics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tasks" class="section">
+                <h2>Analysis Tasks</h2>
+                
+                <div class="task-card">
+                    <h3>Task 1: Order and Sales Analysis</h3>
+                    <div class="task-content">
+                        <p><strong>Objectives:</strong></p>
+                        <ul>
+                            <li>Calculate order counts by status</li>
+                            <li>Analyze total revenue from completed orders</li>
+                            <li>Evaluate monthly revenue trends</li>
+                        </ul>
+                        <p><strong>Key Metrics:</strong> Order status distribution, revenue trends, completion rates</p>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <h3>Task 2: Customer Analysis</h3>
+                    <div class="task-content">
+                        <p><strong>Objectives:</strong></p>
+                        <ul>
+                            <li>Identify repeat customers</li>
+                            <li>Segment customers by spending patterns</li>
+                            <li>Track new customer acquisition</li>
+                        </ul>
+                        <div class="customer-segments">
+                            <span class="segment premium">Premium</span>
+                            <span class="segment regular">Regular</span>
+                            <span class="segment occasional">Occasional</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <h3>Task 3: Payment Status Analysis</h3>
+                    <div class="task-content">
+                        <p><strong>Objectives:</strong></p>
+                        <ul>
+                            <li>Investigate payment success/failure rates</li>
+                            <li>Analyze payment method distribution</li>
+                            <li>Identify payment processing trends</li>
+                        </ul>
+                        <p><strong>Key Insights:</strong> Payment reliability, method preferences, processing efficiency</p>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <h3>Task 4: Order Details Report</h3>
+                    <div class="task-content">
+                        <p><strong>Objectives:</strong></p>
+                        <ul>
+                            <li>Combine order and payment data</li>
+                            <li>Create comprehensive reports</li>
+                            <li>Provide detailed order insights</li>
+                        </ul>
+                        <p><strong>Output:</strong> Unified reporting dashboard with payment details</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="retention" class="section">
+                <h2>Customer Retention Visualization</h2>
+                <div class="card">
+                    <h3>Cohort Analysis</h3>
+                    <p>This visualization shows how many customers from each cohort returned to make purchases in future months. Darker colors indicate months with higher repeat purchases.</p>
+                    
+                    <div class="visualization-container">
+                        <img src="cohort_retention.jpg" alt="Customer Retention Cohort Analysis" class="retention-chart">
+                    </div>
+                    
+                    <div class="retention-insights">
+                        <h4>Key Findings:</h4>
+                        <ul>
+                            <li>Cohort-based retention patterns clearly visible</li>
+                            <li>Darker heatmap areas show stronger customer loyalty</li>
+                            <li>Monthly progression tracking for each customer group</li>
+                            <li>Actionable insights for retention strategy improvement</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="insights" class="section">
+                <h2>Key Business Insights</h2>
+                <div class="insights-grid">
+                    <div class="insight-card">
+                        <h3>Revenue Optimization</h3>
+                        <p>Monthly revenue analysis reveals seasonal patterns and growth opportunities for strategic planning.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h3>Customer Segmentation</h3>
+                        <p>Clear distinction between Premium, Regular, and Occasional customers enables targeted marketing strategies.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h3>Payment Processing</h3>
+                        <p>Payment method analysis helps optimize transaction success rates and customer experience.</p>
+                    </div>
+                    <div class="insight-card">
+                        <h3>Retention Strategy</h3>
+                        <p>Cohort analysis provides actionable insights for improving customer lifetime value and reducing churn.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p><strong>Author:</strong> Prince Thummar</p>
+                <p><strong>Date:</strong> April 29, 2025</p>
+                <p><strong>Database:</strong> Optimized for MySQL</p>
+                <div class="footer-links">
+                    <a href="assignment_queries.sql" class="footer-link">View SQL Queries</a>
+                    <a href="Summary.pdf" class="footer-link">Download Summary</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
